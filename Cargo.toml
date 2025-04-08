@@ -7,6 +7,6 @@ edition = "2021"
 anyhow = "1.0.97"
 dotenv = "0.15.0"
 serenity = "0.12.4"
-rflog-parser = { path="C:/Users/smokkkin/projects/riverfall/rflog-parser" }
+rflog-parser = "0.1.0"
 tokio = { version = "1.44.2", features = ["full"] }
 reqwest = "0.12.15"

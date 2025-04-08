@@ -1430,6 +1430,8 @@ dependencies = [
 [[package]]
 name = "rflog-parser"
 version = "0.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "81ac4153c5127aa749d5858d4a191a4a3b3aed60fde7402cf3ba311095aa5a40"
 dependencies = [
  "anyhow",
  "chrono",
