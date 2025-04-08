@@ -1,0 +1,12 @@
+[package]
+name = "golemich"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.97"
+dotenv = "0.15.0"
+serenity = "0.12.4"
+rflog-parser = { path="C:/Users/smokkkin/projects/riverfall/rflog-parser" }
+tokio = { version = "1.44.2", features = ["full"] }
+reqwest = "0.12.15"

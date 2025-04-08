@@ -1,0 +1,17 @@
+data:
+  authors: ["smokingplaya"]
+  description: Builder file
+  projectName: Golemich bot
+
+configuration:
+  default: dev
+
+tasks:
+  dev:
+    commands:
+      - cargo watch -x run
+
+  build_image:
+    description: Builds a docker image
+    commands:
+      - docker build -t golemich .
